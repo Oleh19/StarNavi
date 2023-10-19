@@ -1,0 +1,23 @@
+.field-container {
+  .field {
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: flex;
+
+    .square {
+      width: 40px;
+      height: 40px;
+      border: 1px solid black;
+      cursor: pointer;
+      box-sizing: border-box;
+
+      &.blue {
+        background-color: blue;
+      }
+
+      &.white {
+        background-color: white;
+      }
+    }
+  }
+}

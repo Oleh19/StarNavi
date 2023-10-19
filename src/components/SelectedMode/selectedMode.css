@@ -1,0 +1,21 @@
+.modes {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.select {
+  width: 150px;
+  padding: 4px;
+  border: 2px black solid;
+}
+
+.buttonStart {
+  margin-left: 10px;
+  padding: 5px 15px;
+  background: rgb(75, 75, 255);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}

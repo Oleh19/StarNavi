@@ -1,0 +1,28 @@
+.selected-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.listSelectedItems {
+  margin-left: 0;
+  padding-left: 0;
+  max-height: 50vh ;
+  width: auto;
+  overflow: auto;
+}
+
+.selectedItem {
+  list-style: none;
+  padding: 10px 5px;
+  min-width: 200px;
+  border-radius: 5px;
+  background: rgb(227, 205, 177);
+  color: rgb(141, 99, 22);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.selectedItem:first-child {
+  margin-top: 15px;
+}
